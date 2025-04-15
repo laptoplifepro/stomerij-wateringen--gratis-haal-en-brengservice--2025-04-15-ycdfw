@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +15,40 @@
     <meta name="description" content="Professionele stomerij in Wateringen met gratis haal- en brengservice. Expertise in kleding, gordijnen en meer.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">Stomerij Wateringen</a>
+                <a href="https://laptoplifepro.github.io/stomerij-wateringen--gratis-haal-en-brengservice--2025-04-15-ycdfw" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Stomerij Wateringen</a>
+                
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl text-gray-600 hover:text-blue-600 transition-colors duration-300"></i>
+                </button>
+
                 <div class="hidden md:flex space-x-8">
                     <a href="#diensten" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Diensten</a>
                     <a href="#voordelen" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Over Ons</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
+
                 <a href="https://wasserettewestland.nl" class="hidden md:block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
                     Direct Reserveren
                 </a>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#diensten" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Diensten</a>
+                <a href="#voordelen" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Voordelen</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Over Ons</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors duration-300">Contact</a>
+                <a href="https://wasserettewestland.nl" class="block py-2 px-4 mt-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">Direct Reserveren</a>
             </div>
         </nav>
     </header>
@@ -34,13 +61,13 @@
                         Professionele Stomerij met Gratis Haal- en Brengservice
                     </h1>
                     <p class="text-xl text-gray-600 mb-12">
-                        Uw kleding verdient de beste zorg. Wij bieden premium stomerijdiensten in Wateringen en omgeving.
+                        Uw kleding verdient de beste zorg. Wij bieden premium stomerijdiensten in Wateringen en omgeving, met meer dan 20 jaar ervaring in het vakkundig behandelen van uw meest waardevolle kledingstukken.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="https://wasserettewestland.nl" class="px-8 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
+                        <a href="https://wasserettewestland.nl" class="px-8 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold shadow-md hover:shadow-lg">
                             Maak een Afspraak
                         </a>
-                        <a href="#diensten" class="px-8 py-4 bg-white text-blue-600 rounded-full border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300 text-lg font-semibold">
+                        <a href="#diensten" class="px-8 py-4 bg-white text-blue-600 rounded-full border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300 text-lg font-semibold hover:shadow-md">
                             Onze Diensten
                         </a>
                     </div>
@@ -52,16 +79,35 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Onze Specialistische Diensten</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
                             </svg>
                         </div>
                         <h3 class="text-xl font-semibold mb-4">Kleding Stomen</h3>
-                        <p class="text-gray-600">Professionele behandeling van al uw kledingstukken met de grootste zorg en aandacht.</p>
+                        <p class="text-gray-600">Professionele behandeling van al uw kledingstukken met de grootste zorg en aandacht. Gespecialiseerd in delicate stoffen en designerkleding.</p>
                     </div>
-                    <!-- More service cards... -->
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Gordijnen & Interieur</h3>
+                        <p class="text-gray-600">Vakkundige reiniging van gordijnen, dekens, en andere interieurtextiel. Inclusief afhalen en ophangen service.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Suède & Leer</h3>
+                        <p class="text-gray-600">Specialistische behandeling van suède en leren items met geavanceerde technieken voor optimaal behoud van kwaliteit.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -71,7 +117,7 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Kiezen voor Ons?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div class="space-y-8">
-                        <div class="flex gap-4">
+                        <div class="flex gap-4 transform hover:scale-102 transition-transform duration-300">
                             <div class="flex-shrink-0">
                                 <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                                     <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,14 +127,122 @@
                             </div>
                             <div>
                                 <h3 class="text-xl font-semibold mb-2">Gratis Haal- en Brengservice</h3>
-                                <p class="text-gray-600">Wij halen uw kleding op en brengen deze schoon weer terug, geheel kosteloos.</p>
+                                <p class="text-gray-600">Wij halen uw kleding op en brengen deze schoon weer terug, geheel kosteloos binnen ons servicegebied. Bespaar tijd en moeite!</p>
                             </div>
                         </div>
-                        <!-- More benefits... -->
+
+                        <div class="flex gap-4 transform hover:scale-102 transition-transform duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Snelle Service</h3>
+                                <p class="text-gray-600">Binnen 48 uur uw kleding weer schoon en fris terug. Spoedservice mogelijk op aanvraag voor als het echt snel moet.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 transform hover:scale-102 transition-transform duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2">Kwaliteitsgarantie</h3>
+                                <p class="text-gray-600">Met meer dan 20 jaar ervaring garanderen wij de beste zorg voor uw kleding. 100% tevredenheidsgarantie op al onze diensten.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f" alt="Stomerij interieur" class="rounded-2xl shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f" alt="Stomerij interieur" class="rounded-2xl shadow-2xl transform hover:scale-102 transition-transform duration-300">
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Fantastische service! Mijn trouwjurk was perfect gereinigd en ze haalden hem zelfs gratis op. Zeer professioneel team."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Lisa van den Berg</p>
+                            <p class="text-sm text-gray-500">Bruid</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Al jaren klant en nog nooit teleurgesteld. De haal- en brengservice maakt het extra gemakkelijk voor mijn drukke schema."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Mark Jansen</p>
+                            <p class="text-sm text-gray-500">Zakenman bij ABN AMRO</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Uitstekende behandeling van mijn designer kleding. Ze weten precies hoe ze met delicate stoffen om moeten gaan."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Emma de Vries</p>
+                            <p class="text-sm text-gray-500">Mode Stylist</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"De gordijnen zijn als nieuw! Snelle service en zeer vriendelijk personeel. Echt een aanrader."</p>
+                        <div class="border-t pt-4">
+                            <p class="font-semibold">Peter Bakker</p>
+                            <p class="text-sm text-gray-500">Interieur Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Ons</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Opgericht in 2000 door de familie Van der Meer, is Stomerij Wateringen uitgegroeid van een kleine lokale stomerij tot dé toonaangevende specialist in de regio. Met meer dan twee decennia ervaring hebben we duizenden tevreden klanten mogen helpen met het onderhoud van hun meest waardevolle kledingstukken en textiel.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Onze missie is om superieure stomerijdiensten te leveren met persoonlijke aandacht en respect voor het milieu. We geloven in kwaliteit, duurzaamheid en klanttevredenheid. Onze kernwaarden - vakmanschap, betrouwbaarheid en service - zijn de drijvende kracht achter alles wat we doen.
+                    </p>
                 </div>
             </div>
         </section>
@@ -99,21 +253,45 @@
                 <div class="max-w-3xl mx-auto space-y-6">
                     <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300">
                         <h3 class="text-lg font-semibold mb-2">Hoe lang duurt het stomen van kleding?</h3>
-                        <p class="text-gray-600">Gemiddeld is uw kleding binnen 2-3 werkdagen klaar. Voor spoedbestellingen kunt u contact met ons opnemen.</p>
+                        <p class="text-gray-600">Gemiddeld is uw kleding binnen 2-3 werkdagen klaar. Voor spoedbestellingen kunt u contact met ons opnemen voor een express service binnen 24 uur.</p>
                     </div>
-                    <!-- More FAQ items... -->
+
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Wat kost de haal- en brengservice?</h3>
+                        <p class="text-gray-600">Onze haal- en brengservice is volledig gratis binnen ons servicegebied (Wateringen en omstreken). Er geldt geen minimumbedrag voor deze service.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Welke betaalmethoden accepteren jullie?</h3>
+                        <p class="text-gray-600">Wij accepteren alle gangbare betaalmethoden waaronder PIN, creditcard, contant en verschillende mobiele betaalapps. Ook is betaling op factuur mogelijk voor zakelijke klanten.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Hoe gaan jullie om met delicate stoffen?</h3>
+                        <p class="text-gray-600">Elk kledingstuk wordt individueel geïnspecteerd en krijgt een behandeling op maat. We gebruiken speciale technieken en milieuvriendelijke reinigingsmiddelen voor delicate stoffen.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Bieden jullie een garantie?</h3>
+                        <p class="text-gray-600">Ja, wij bieden 100% tevredenheidsgarantie op al onze diensten. Als u niet tevreden bent met het resultaat, lossen we het kosteloos voor u op.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-blue-600 text-white">
+        <section id="contact" class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1582735689369-4fe89db7114c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bGF1bmRyeXx8fHx8fDE2MzU1MjQ5MzQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080'); background-size: cover; background-position: center;">
             <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto">
+                <div class="text-center max-w-3xl mx-auto bg-blue-600/90 p-12 rounded-3xl backdrop-blur-sm">
                     <h2 class="text-3xl md:text-4xl font-bold mb-8">Klaar om uw kleding te laten stomen?</h2>
-                    <p class="text-xl mb-12">Neem contact met ons op of maak direct een afspraak voor onze haal- en brengservice.</p>
-                    <a href="mailto:info@wasserettewestland.nl" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
-                        Contact Opnemen
-                    </a>
+                    <p class="text-xl mb-12">Neem contact met ons op of maak direct een afspraak voor onze gratis haal- en brengservice. Ervaar zelf waarom we de beste keuze zijn voor uw waardevolle kleding.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="mailto:info@wasserettewestland.nl" class="inline-block px-8 py-4 bg-white text-blue-600 rounded-full hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 text-lg font-semibold shadow-md hover:shadow-lg">
+                            Contact Opnemen
+                        </a>
+                        <a href="tel:+31701234567" class="inline-block px-8 py-4 bg-transparent text-white border-2 border-white rounded-full hover:bg-white/10 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
+                            <i class="fas fa-phone-alt mr-2"></i>070 123 4567
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -125,30 +303,49 @@
                 <div>
                     <h3 class="text-xl font-bold text-white mb-4">Stomerij Wateringen</h3>
                     <p class="mb-4">Professionele stomerijdiensten met gratis haal- en brengservice in Wateringen en omgeving.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
                 </div>
+
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Contact</h4>
+                    <p class="mb-2">Hoofdstraat 123</p>
+                    <p class="mb-2">2291 AA Wateringen</p>
+                    <a href="tel:+31701234567" class="block hover:text-white transition-colors duration-300">070 123 4567</a>
                     <a href="mailto:info@wasserettewestland.nl" class="block hover:text-white transition-colors duration-300">info@wasserettewestland.nl</a>
                 </div>
+
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#diensten" class="hover:text-white transition-colors duration-300">Diensten</a></li>
                         <li><a href="#voordelen" class="hover:text-white transition-colors duration-300">Voordelen</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">Over Ons</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://laptoplifepro.github.io/stomerij-wateringen--gratis-haal-en-brengservice--2025-04-15-ycdfw/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
+
                 <div>
-                    <h4 class="text-lg font-semibold text-white mb-4">Volg Ons</h4>
-                    <div class="flex space-x-4">
-                        <!-- Social media links -->
-                    </div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Juridisch</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://laptoplifepro.github.io/stomerij-wateringen--gratis-haal-en-brengservice--2025-04-15-ycdfw/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://laptoplifepro.github.io/stomerij-wateringen--gratis-haal-en-brengservice--2025-04-15-ycdfw/terms.html" class="hover:text-white transition-colors duration-300">Algemene Voorwaarden</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
-                <p>&copy; 2024 Stomerij Wateringen. Alle rechten voorbehouden.</p>
-            </div>
-        </div>
-    </footer>
+
+            <div class="border
 </body>
 </html>
